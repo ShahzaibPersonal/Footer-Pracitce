@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contact-wrap {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-in {
+	padding: 40px 30px;
+}
+
+.contact-in:nth-child(1) {
+	flex: 30%;
+	background-color: rgb(27, 26, 26);
+	color: rgb(247, 246, 244);
+}
+
+.contact-in:nth-child(2) {
+	flex: 20%;
+	background: #fffefe;
+   
+}
+
+.contact-in:nth-child(3) {
+	flex: 25%;
+	padding: 0;
+}
+.contact-in h1 {
+
+    font-size: 24px;
+	color: rgb(8, 8, 8);
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.contact-in h1 i {
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: #f5f5f5;
+	color: rgb(252, 182, 32);
+	border-radius: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.contact-in h2 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.contact-in h2 i {
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: #f5f5f5;
+	color: rgb(245, 168, 26);
+	border-radius: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.contact-in p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.contact-in ul{
+    padding: 0;
+    margin: 0;
+}
+.contact-in ul li{
+    list-style: none;
+    display:  inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.contact-in ul li a{
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(5, 5, 4);
+}
+.contact-in ul li a i{
+    font-size: 30px;
+    line-height: 30px;
+    color: rgb(245, 168, 26);
+}
+.contact-in form{
+   width: 100%;
+    height: auto ;
+   
+}
+.contact-in-input{
+    width: 100%;
+    height: 40px ;
+   margin-bottom: 20px;
+   max-width: 100%;
+   border: 1px solid #DDE0E3 !important;
+   border-radius: 2px;
+   padding: 5px 14px;
+   width: 100%;
+   font-size: 14px;
+   color: #8D8D8D;
+   font-size: 12px;
+   font-weight: 300;
+   font-family: 'Poppins', sans-serif;
+
+}
+.contact-in-input ::placeholder{
+
+   color:#fff ;
+}
+
+
+.contact-in-textarea{
+    width: 100%;
+    height: 140px ;
+   margin-bottom: 20px;
+ 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* resize: vertical; */
+   font-size: 12px;
+   font-weight: 300;
+   font-family: 'Poppins', sans-serif;
+
+}
+.contact-in-textarea ::placeholder{
+
+   color:rgb(78, 73, 73) ;
+}
+.contact-in-btn{
+    /* width: 50%;
+    height: 50px ;
+   margin-bottom: 20px;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   outline: none;
+   cursor: pointer;
+   background-color: darkorange;
+   color:rgb(10, 10, 10) ;
+   font-size: 20px;
+   font-weight: 300;
+    */
+    background-color: darkorange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+   font-family: 'Poppins', sans-serif;
+}
+
+.contact-in iframe {
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-width:480px) {
+	.contact-in:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contact-in:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contact-in:nth-child(3) {
+		flex: 100%;
+	}
+
+}
+
+@media only screen and (max-width:360px) {
+	.contact-in:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contact-in:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contact-in:nth-child(3) {
+		flex: 100%;
+	}
+
+}
